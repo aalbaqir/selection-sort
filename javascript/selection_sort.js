@@ -1,6 +1,12 @@
 function selectionSort(arr) {
-  // type your code here
+
+// const arr = [3, -1, 5, 2]
+return arr.sort((a, b) => a - b)
+
 }
+
+
+
 
 if (require.main === module) {
   // add your own tests in here
